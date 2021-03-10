@@ -481,7 +481,7 @@
 				CODE_SIGN_ENTITLEMENTS = RECAP/RECAP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = RECAP/Info.plist;
+				INFOPLIST_FILE = "recap-safari/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -502,7 +502,7 @@
 				CODE_SIGN_ENTITLEMENTS = RECAP/RECAP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = RECAP/Info.plist;
+				INFOPLIST_FILE = "recap-safari/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
