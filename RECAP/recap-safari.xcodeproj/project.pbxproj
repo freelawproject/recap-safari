@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F75F077F25F90B08009FA478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F077E25F90B08009FA478 /* AppDelegate.swift */; };
+		F75F078225F90B08009FA478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75F078025F90B08009FA478 /* Main.storyboard */; };
+		F75F078425F90B08009FA478 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F078325F90B08009FA478 /* ViewController.swift */; };
+		F75F078625F90B09009FA478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75F078525F90B09009FA478 /* Assets.xcassets */; };
+		F75F078D25F90B09009FA478 /* recap-safari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F75F078C25F90B09009FA478 /* recap-safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F75F079225F90B09009FA478 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75F079125F90B09009FA478 /* Cocoa.framework */; };
+		F75F079525F90B09009FA478 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F079425F90B09009FA478 /* SafariWebExtensionHandler.swift */; };
+		F75F07AF25F90B0A009FA478 /* notifier.js in Resources */ = {isa = PBXBuildFile; fileRef = F75F07A225F90B09009FA478 /* notifier.js */; };
+		F75F07B025F90B0A009FA478 /* install_notifier.js in Resources */ = {isa = PBXBuildFile; fileRef = F75F07A325F90B09009FA478 /* install_notifier.js */; };
+		F75F07B125F90B0A009FA478 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F75F07A425F90B09009FA478 /* background.js */; };
+		F75F07B225F90B0A009FA478 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = F75F07A525F90B09009FA478 /* options.js */; };
+		F75F07B325F90B0A009FA478 /* toolbar_button.js in Resources */ = {isa = PBXBuildFile; fileRef = F75F07A625F90B09009FA478 /* toolbar_button.js */; };
+		F75F07B425F90B0A009FA478 /* pacer.js in Resources */ = {isa = PBXBuildFile; fileRef = F75F07A725F90B09009FA478 /* pacer.js */; };
+		F75F07B525F90B0A009FA478 /* recap.js in Resources */ = {isa = PBXBuildFile; fileRef = F75F07A825F90B09009FA478 /* recap.js */; };
+		F75F07B625F90B0A009FA478 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F75F07A925F90B09009FA478 /* manifest.json */; };
+		F75F07B725F90B0A009FA478 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = F75F07AA25F90B09009FA478 /* options.html */; };
+		F75F07B825F90B0A009FA478 /* utils.js in Resources */ = {isa = PBXBuildFile; fileRef = F75F07AB25F90B09009FA478 /* utils.js */; };
+		F75F07B925F90B0A009FA478 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = F75F07AC25F90B09009FA478 /* content.js */; };
+		F75F07BA25F90B0A009FA478 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = F75F07AD25F90B09009FA478 /* assets */; };
+		F75F07BB25F90B0A009FA478 /* content_delegate.js in Resources */ = {isa = PBXBuildFile; fileRef = F75F07AE25F90B09009FA478 /* content_delegate.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F75F078E25F90B09009FA478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75F077225F90B08009FA478 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75F078B25F90B09009FA478;
+			remoteInfo = "RECAP Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F75F079D25F90B09009FA478 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F75F078D25F90B09009FA478 /* recap-safari Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F75F077A25F90B08009FA478 /* recap-safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recap-safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75F077D25F90B08009FA478 /* RECAP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RECAP.entitlements; sourceTree = "<group>"; };
+		F75F077E25F90B08009FA478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F75F078125F90B08009FA478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F75F078325F90B08009FA478 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F75F078525F90B09009FA478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F75F078725F90B09009FA478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75F078C25F90B09009FA478 /* recap-safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "recap-safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75F079125F90B09009FA478 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F75F079425F90B09009FA478 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		F75F079625F90B09009FA478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75F079725F90B09009FA478 /* RECAP_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RECAP_Extension.entitlements; sourceTree = "<group>"; };
+		F75F07A225F90B09009FA478 /* notifier.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = notifier.js; path = ../../src/notifier.js; sourceTree = "<group>"; };
+		F75F07A325F90B09009FA478 /* install_notifier.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = install_notifier.js; path = ../../src/install_notifier.js; sourceTree = "<group>"; };
+		F75F07A425F90B09009FA478 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../src/background.js; sourceTree = "<group>"; };
+		F75F07A525F90B09009FA478 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = ../../src/options.js; sourceTree = "<group>"; };
+		F75F07A625F90B09009FA478 /* toolbar_button.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = toolbar_button.js; path = ../../src/toolbar_button.js; sourceTree = "<group>"; };
+		F75F07A725F90B09009FA478 /* pacer.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = pacer.js; path = ../../src/pacer.js; sourceTree = "<group>"; };
+		F75F07A825F90B09009FA478 /* recap.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = recap.js; path = ../../src/recap.js; sourceTree = "<group>"; };
+		F75F07A925F90B09009FA478 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../src/manifest.json; sourceTree = "<group>"; };
+		F75F07AA25F90B09009FA478 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = ../../src/options.html; sourceTree = "<group>"; };
+		F75F07AB25F90B09009FA478 /* utils.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = utils.js; path = ../../src/utils.js; sourceTree = "<group>"; };
+		F75F07AC25F90B09009FA478 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../src/content.js; sourceTree = "<group>"; };
+		F75F07AD25F90B09009FA478 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../../src/assets; sourceTree = "<group>"; };
+		F75F07AE25F90B09009FA478 /* content_delegate.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content_delegate.js; path = ../../src/content_delegate.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F75F077725F90B08009FA478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75F078925F90B09009FA478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75F079225F90B09009FA478 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F75F077125F90B08009FA478 = {
+			isa = PBXGroup;
+			children = (
+				F75F077C25F90B08009FA478 /* recap-safari */,
+				F75F079325F90B09009FA478 /* RECAP Extension */,
+				F75F079025F90B09009FA478 /* Frameworks */,
+				F75F077B25F90B08009FA478 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F75F077B25F90B08009FA478 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F75F077A25F90B08009FA478 /* recap-safari.app */,
+				F75F078C25F90B09009FA478 /* recap-safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F75F077C25F90B08009FA478 /* recap-safari */ = {
+			isa = PBXGroup;
+			children = (
+				F75F077D25F90B08009FA478 /* RECAP.entitlements */,
+				F75F077E25F90B08009FA478 /* AppDelegate.swift */,
+				F75F078025F90B08009FA478 /* Main.storyboard */,
+				F75F078325F90B08009FA478 /* ViewController.swift */,
+				F75F078525F90B09009FA478 /* Assets.xcassets */,
+				F75F078725F90B09009FA478 /* Info.plist */,
+			);
+			path = "recap-safari";
+			sourceTree = "<group>";
+		};
+		F75F079025F90B09009FA478 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F75F079125F90B09009FA478 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F75F079325F90B09009FA478 /* RECAP Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F75F07A125F90B09009FA478 /* Resources */,
+				F75F079425F90B09009FA478 /* SafariWebExtensionHandler.swift */,
+				F75F079625F90B09009FA478 /* Info.plist */,
+				F75F079725F90B09009FA478 /* RECAP_Extension.entitlements */,
+			);
+			path = "RECAP Extension";
+			sourceTree = "<group>";
+		};
+		F75F07A125F90B09009FA478 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F75F07A225F90B09009FA478 /* notifier.js */,
+				F75F07A325F90B09009FA478 /* install_notifier.js */,
+				F75F07A425F90B09009FA478 /* background.js */,
+				F75F07A525F90B09009FA478 /* options.js */,
+				F75F07A625F90B09009FA478 /* toolbar_button.js */,
+				F75F07A725F90B09009FA478 /* pacer.js */,
+				F75F07A825F90B09009FA478 /* recap.js */,
+				F75F07A925F90B09009FA478 /* manifest.json */,
+				F75F07AA25F90B09009FA478 /* options.html */,
+				F75F07AB25F90B09009FA478 /* utils.js */,
+				F75F07AC25F90B09009FA478 /* content.js */,
+				F75F07AD25F90B09009FA478 /* assets */,
+				F75F07AE25F90B09009FA478 /* content_delegate.js */,
+			);
+			name = Resources;
+			path = "RECAP Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F75F077925F90B08009FA478 /* recap-safari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75F079E25F90B09009FA478 /* Build configuration list for PBXNativeTarget "recap-safari" */;
+			buildPhases = (
+				F75F077625F90B08009FA478 /* Sources */,
+				F75F077725F90B08009FA478 /* Frameworks */,
+				F75F077825F90B08009FA478 /* Resources */,
+				F75F079D25F90B09009FA478 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75F078F25F90B09009FA478 /* PBXTargetDependency */,
+			);
+			name = "recap-safari";
+			productName = RECAP;
+			productReference = F75F077A25F90B08009FA478 /* recap-safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F75F078B25F90B09009FA478 /* recap-safari Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75F079A25F90B09009FA478 /* Build configuration list for PBXNativeTarget "recap-safari Extension" */;
+			buildPhases = (
+				F75F078825F90B09009FA478 /* Sources */,
+				F75F078925F90B09009FA478 /* Frameworks */,
+				F75F078A25F90B09009FA478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "recap-safari Extension";
+			productName = "RECAP Extension";
+			productReference = F75F078C25F90B09009FA478 /* recap-safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F75F077225F90B08009FA478 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F75F077925F90B08009FA478 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F75F078B25F90B09009FA478 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F75F077525F90B08009FA478 /* Build configuration list for PBXProject "recap-safari" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F75F077125F90B08009FA478;
+			productRefGroup = F75F077B25F90B08009FA478 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F75F077925F90B08009FA478 /* recap-safari */,
+				F75F078B25F90B09009FA478 /* recap-safari Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F75F077825F90B08009FA478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75F078625F90B09009FA478 /* Assets.xcassets in Resources */,
+				F75F078225F90B08009FA478 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75F078A25F90B09009FA478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75F07B825F90B0A009FA478 /* utils.js in Resources */,
+				F75F07B925F90B0A009FA478 /* content.js in Resources */,
+				F75F07B425F90B0A009FA478 /* pacer.js in Resources */,
+				F75F07B025F90B0A009FA478 /* install_notifier.js in Resources */,
+				F75F07B225F90B0A009FA478 /* options.js in Resources */,
+				F75F07B525F90B0A009FA478 /* recap.js in Resources */,
+				F75F07BB25F90B0A009FA478 /* content_delegate.js in Resources */,
+				F75F07B625F90B0A009FA478 /* manifest.json in Resources */,
+				F75F07B125F90B0A009FA478 /* background.js in Resources */,
+				F75F07AF25F90B0A009FA478 /* notifier.js in Resources */,
+				F75F07BA25F90B0A009FA478 /* assets in Resources */,
+				F75F07B325F90B0A009FA478 /* toolbar_button.js in Resources */,
+				F75F07B725F90B0A009FA478 /* options.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F75F077625F90B08009FA478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75F078425F90B08009FA478 /* ViewController.swift in Sources */,
+				F75F077F25F90B08009FA478 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75F078825F90B09009FA478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75F079525F90B09009FA478 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F75F078F25F90B09009FA478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75F078B25F90B09009FA478 /* recap-safari Extension */;
+			targetProxy = F75F078E25F90B09009FA478 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F75F078025F90B08009FA478 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F75F078125F90B08009FA478 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F75F079825F90B09009FA478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F75F079925F90B09009FA478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F75F079B25F90B09009FA478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "RECAP Extension/RECAP_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RECAP Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = law.free.RECAP.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F75F079C25F90B09009FA478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "RECAP Extension/RECAP_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RECAP Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = law.free.RECAP.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F75F079F25F90B09009FA478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RECAP/RECAP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RECAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = law.free.RECAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F75F07A025F90B09009FA478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RECAP/RECAP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RECAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = law.free.RECAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F75F077525F90B08009FA478 /* Build configuration list for PBXProject "recap-safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75F079825F90B09009FA478 /* Debug */,
+				F75F079925F90B09009FA478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75F079A25F90B09009FA478 /* Build configuration list for PBXNativeTarget "recap-safari Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75F079B25F90B09009FA478 /* Debug */,
+				F75F079C25F90B09009FA478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75F079E25F90B09009FA478 /* Build configuration list for PBXNativeTarget "recap-safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75F079F25F90B09009FA478 /* Debug */,
+				F75F07A025F90B09009FA478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F75F077225F90B08009FA478 /* Project object */;
+}
